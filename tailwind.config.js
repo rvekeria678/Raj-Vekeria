@@ -5,6 +5,9 @@ module.exports = {
     "./index.html"
   ],
   theme: {
+    fontFamily: {
+      "outfit": ["Outfit", 'sans-serif']
+    },
     extend: {},
   },
   plugins: [],

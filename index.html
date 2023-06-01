@@ -6,40 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raj Vekeria</title>
     <link href="./dist/output.css" rel="stylesheet" />
+    <link href="./src/css/font.css" rel="stylesheet" />
 </head>
-<body>
-    <div class="min-h-screen bg-[#D4DCF3]">
-        <nav class="p-3">
-            <img class="w-[4em]" src="./src/assets/images/rvicon.png"/>
+<body class="font-outfit">
+    <div class="min-h-screen bg-gradient-to-br from-[#D4DCF3] to-slate-400">
+        <nav class="p-3 flex justify-between">
+            <img class="w-[4rem] h-[4rem]" src="./src/assets/images/rvicon.png"/>
+            <!--
+            <div class="p-2">
+                <img class="w-[3rem]" src="./src/assets/images/menubtn.png">
+            </div>-->
+            <div class="p-2">
+                <img class="w-[2.5rem] mx-auto" src="./src/assets/images/resumeicon.png"/>
+                <h2 class="text-center text-sm">Resume</h2>
+            </div>
         </nav>
         <div class="overflow-hidden">
-            <img class="w-[14em]" src="./src/assets/images/profileoutline.png"/>
+            <img class="w-[7rem] ml-[4rem]" src="./src/assets/images/profileoutline2.png"/>
         </div>
-        <div class="p-8 w-[22em] h-[22em] z-10 bg-white rounded-full rounded-tl-none mx-auto">
-            <h1 class="text-3xl my-4">Raj Vekeria</h1>
-            <p class="text-xl my-2">University of Massachusetts, Lowell Graduate.</p>
-            <p class="text-xl my-2">Interested in software development in the frontend and backend.</p>
+        <div class="p-8 w-[22rem] h-[22rem] bg-white rounded-full rounded-tl-none mx-auto">
+            <h1 class="text-2xl my-4 font-semibold">Raj Vekeria</h1>
+            <p class="text-lg my-2 font-light">University of Massachusetts, Lowell Graduate.</p>
+            <p class="text-lg my-2 font-light">Interested in software development in the frontend and backend.</p>
         </div>
         <div class="p-3 absolute bottom-0">
-            <img class="w-[4em]" src="./src/assets/images/downarrow.png"/>
+            <img class="w-[3.5rem] animate-bounce" src="./src/assets/images/downarrow.png"/>
+        </div>
+        <div class="p-3 absolute bottom-0 right-0">
+            <img class="w-[3.2rem] mx-auto" src="./src/assets/images/emailicon.png"/>
+            <img class="w-[3.7rem] mx-auto" src="./src/assets/images/linkedinlogo.png"/>
+            <img class="w-[3.2rem] mx-auto" src="./src/assets/images/githublogo.png"/>
         </div>
         <!--<div class="bg-white w-[22em] h-[22em] absolute mt-20 rounded-full rounded-tl-none"></div>-->
     </div>
     <div class="min-h-screen divide-y divide-slate-200">
-        <div class="p-5">
+        <div class="p-5 flex">
             <h1 class="text-5xl">Projects</h1>
+            <img class="w-[3rem] mx-2" src="./src/assets/images/projectsicon.png"/>
         </div>
         <div class="p-5">
-            <h1 class="text-2xl">MesoMerchant</h1>
-            <p class="text-lg my-4">An RPG game designed to aid students enrolled in a Massachusetts secondary education curriculum. Engaging students about the ancient civilization of Mesopotamia.</p>
+            <h1 class="text-2xl font-semibold">MesoMerchant</h1>
+            <p class="text-lg my-4 font-light">An RPG game designed to aid students enrolled in a Massachusetts secondary education curriculum. Engaging students about the ancient civilization of Mesopotamia.</p>
         </div>
         <div class="p-5">
-            <h1 class="text-2xl">Pokemon Wiki</h1>
-            <p class="text-lg my-4">An informative resource about the game of Pokemon which is a widely popular title. Visitors can learn about and compare different pokemon with one another.</p>
+            <h1 class="text-2xl font-semibold">Pokemon Wiki</h1>
+            <p class="text-lg my-4 font-light">An informative resource about the game of Pokemon which is a widely popular title. Visitors can learn about and compare different pokemon with one another.</p>
         </div>
         <div class="p-5">
-            <h1 class="text-2xl">Evil Hangman</h1>
-            <p class="text-lg my-4">A variation of the class hangman game where the computer alters the key word to prevent the user from guessing the correct word. Every character the player guesses, the computer generates several word families to chooses its next key.</p>
+            <h1 class="text-2xl font-semibold">Evil Hangman</h1>
+            <p class="text-lg my-4 font-light">A variation of the class hangman game where the computer alters the key word to prevent the user from guessing the correct word. Every character the player guesses, the computer generates several word families to chooses its next key.</p>
         </div>
     </div>
 </body>
